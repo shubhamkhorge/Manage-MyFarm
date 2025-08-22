@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "FarmMVP",
+    "slug": "farm-mvp",
+    "scheme": "farmmvp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow FarmMVP to access your location while using the app.",
+          "locationAlwaysAndWhenInUsePermission": "Allow FarmMVP to access your location even when the app is in the background."
+        }
+      ]
+    ]
+  }
+}
+
